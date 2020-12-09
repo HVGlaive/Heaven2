@@ -1,0 +1,140 @@
+body{
+    background:url(HV3.png) no-repeat;
+    background-size: 1920px 1280px;
+    display:flex;
+    flex-wrap:wrap;
+    margin:0;
+}
+body>header{
+    flex-basis:100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    ;
+}
+header{
+    background:url(HV3.png) no-repeat;
+    background-size: 10px 10px;
+}
+#logo{
+    top:0px;
+    left:0px;
+    width: 2000000px;
+    height: 35000000px;
+    background-image: url(HV4.png);
+    background-repeat: no-repeat;
+    background-position: left bottom ;
+    position:absolute;
+}
+header>h1{
+   display:flex;
+   margin-left:0%;
+   font-size: 300%;
+   color:red;
+}
+header>p{
+   margin-left:0%;
+   font-size: 150%;
+   color: red;
+}
+
+body>section{
+    display:flex;
+
+
+}
+section {
+    padding: 1em;
+    display: flex;
+    flex-wrap: nowrap;
+}
+section img {
+    text-align: right;
+}
+section>section {
+    flex-basis: 50%;
+    align-content: start;
+    color: white;
+}
+  section>p {
+    flex-basis: 100%;
+    color: white;
+}
+section>table {
+    flex-basis: 100%;
+}
+tr{
+    background-color:rgba(240, 63, 63, 0.795)
+}
+#menu ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    text-align:center;
+    }
+#menu li {
+    float:left;
+    margin:auto;
+    padding:0;
+    background-color:black;
+}
+#menu li a {
+    display:block;
+    width:100px;
+    color:white;
+    text-decoration:none;
+    padding:5px;
+}
+#menu li a:hover {
+    color:#FFD700;
+} 
+#menu ul li ul {
+    display:none;
+}
+#menu ul li:hover ul {
+    display:block;
+}
+#menu li:hover ul li {
+    float:none;
+}
+#menu li ul {
+    position:absolute;
+    }  
+aside h2 {
+    margin-left: 800px;
+    color: white;
+    text-align: center; 
+    text-decoration: underline red;
+}
+aside {
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+aside>p{
+    color: white;
+    flex-basis: 100%;
+    text-align: center; 
+    
+}
+img{
+    margin-left: 800px;
+}
+footer {
+    color: blue;
+    flex-basis: 100%;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding-top:50px;
+    height:50px;
+}
+form{
+    background-size: auto;
+    background-color: transparent;
+    text-align: center;
+    color:rgba(240, 63, 63, 0.795); 
+    padding: 100px;
+    margin: 100px;
+    margin-left: 700px;
+}
